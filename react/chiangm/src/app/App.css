@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+  .left, .center, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+  border: 3px solid green;
+}
+
+.center {
+  margin: 50px;
+  max-width: 600px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+.main__contents {
+  margin: auto; 
+  width: 70%
+}
