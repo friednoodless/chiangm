@@ -4,14 +4,18 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //routes 
-import { Home } from "../pages/home"
-import { Header } from '../header';
+import { Home } from "../components/home"
+import { StravaData } from '../components/strava';
 import { SideBar } from '../sidebar';
 
 
 function App() {
   return (
-    <Home />
+    <div>
+      <Home />
+      <StravaData />
+    </div>
+    
   );
 }
 
