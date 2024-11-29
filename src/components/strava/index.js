@@ -18,7 +18,9 @@ export const StravaData = () => {
       set_strava_activities(require("../../sample-data/activities.json"));
     } else {
       fetch(
-        "https://pup85be7hc.execute-api.ap-southeast-1.amazonaws.com/api/get_strava_data"
+        "https://pup85be7hc.execute-api.ap-southeast-1.amazonaws.com/api/get_strava_data", {
+          mode: "cors"
+        }
       )
         .then((response) => response.json())
         .then((json) => set_strava_activities(json))
