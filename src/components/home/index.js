@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
 
-
 export const Home = () => {
-
-
-
-  
   return (
     <div className="center body">
       <div>
@@ -15,8 +10,10 @@ export const Home = () => {
       <div>
         <p>
           I am a software engineer currently working at{" "}
+          <a href="https://www.goldmansachs.com/">Goldman Sachs</a>{" "}
+          in the{" "}
           <a href="https://aws.amazon.com/solutions/case-studies/innovators/goldman-sachs/">
-            Goldman Sachs in the Cloud team
+            Cloud team
           </a>
           , a graduate of{" "}
           <a href="https://admissions.smu.edu.sg/">
@@ -28,7 +25,7 @@ export const Home = () => {
           Some cool things that I have done on the team:
           <ul>
             <li>
-              Develop a spark pipeline to analyze Goldman Sach's daily 500GB
+              Develop a spark pipeline to analyze Goldman Sach's daily 1TB of
               Cloudtrail logs
             </li>
             <li>
@@ -37,7 +34,7 @@ export const Home = () => {
             </li>
             <li>
               Implement reconciliation between Goldman Sach's Cloud Asset
-              Inventory and alternate sources (Cloudtrail)
+              Inventory and alternate sources (AWS Cloudtrail/GCP Audit Logs)
             </li>
             <li>... and many more</li>
           </ul>
