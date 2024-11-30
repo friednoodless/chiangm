@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "../components/home"
 import { StravaData } from '../components/strava';
 import { SideBar } from '../sidebar';
+import { Footer } from '../components/footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Home />
       <StravaData />
+      <Footer />
     </div>
     
   );
