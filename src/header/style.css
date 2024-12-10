@@ -4,6 +4,11 @@
     .site__header {
         padding-left: 5%;
         /* border: 3px solid green */
+        display: none;
+    }
+    .header__content{ 
+      margin-left: auto; 
+      /* border: 3px solid green; */
     }
   }
   @media screen and (min-width: 800px) {
