@@ -1,0 +1,12 @@
+.header__right__align{
+    margin-left: auto; 
+    margin-right: 10px;
+    
+    
+}
+
+.header__links{ 
+    display:inline-block;
+    width: 100%;
+    /* border: 3px solid green; */
+}

@@ -1,7 +1,19 @@
-.site__header {
-     /* margin: auto; */
-    width: 100%; 
-    border: 3px solid green;
-    text-align: center;
-    padding: 10px;
-}
+
+
+@media screen and (max-width: 800px) {
+    .site__header {
+        padding-left: 5%;
+        /* border: 3px solid green */
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .site__header {
+        padding-left: 75px;
+    }
+
+    .header__content{ 
+      width: 100%; 
+      /* border: 3px solid green; */
+    }
+  }
+  
